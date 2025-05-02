@@ -45,7 +45,7 @@ BattleLens is an interactive web application that explores the intricate relatio
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/BattleLens.git
+   git clone https://github.com/rkapoor1999/BattleLens.git
    cd BattleLens
 
 2. Open the project:
