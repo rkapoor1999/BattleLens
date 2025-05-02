@@ -1,0 +1,243 @@
+.chart-container {
+    height: 550px;
+    width: 950px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.attack-chart-container {
+    height: 830px;
+    width: 760px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    /* background-color: #0a2342; */
+}
+
+.scrolly-container-introduction {
+    display: flex;
+    width: 100%;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.scrolly-text-introduction {
+    width: 50%;
+    padding-right: 20px;
+    flex-shrink: 0;
+}
+
+/* For horizontal scrolling */
+.scrolly-container0 {
+    display: flex;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 60%;
+    padding: 10px 0;
+}
+
+
+.scrolly-text0 {
+    width: 50%;
+    padding-right: 20px;
+    flex-shrink: 0;
+}
+
+.scrolly-graphic0 {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    flex-wrap: nowrap;
+}
+
+
+
+/* /* For Line Chart */
+
+.line-chart-container {
+    height: 500px;
+    width: fit-content;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.scrolly-container-LineChart1 {
+    display: flex;
+    width: 100%;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrolly-text-LineChart1 {
+    width: 50%;
+    padding-right: 20px;
+    flex-shrink: 0;
+    padding-left: 35px;
+}
+
+.scrolly-graphic-LineChart1 {
+    /* display: flex; */
+    width: 50%;
+    height: 50%;
+    flex-wrap: nowrap;
+}
+
+/* Line cHART Ended */
+
+
+
+
+.scrolly-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+.scrolly-text1 {
+    width: 50%;
+    padding-right: 20px;
+    flex-shrink: 0;
+}
+
+.scrolly-graphic1 {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrolly-graphic2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
+    margin: 50px;
+}
+/* For horizontal scrolling */
+.scrolly-container2 {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+}
+.scrolly-text2 {
+    width: 60%;
+    padding-right: 20px;
+    padding-left: 45px;
+    flex-shrink: 0;
+}
+
+.scrolly-graphic3 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
+    /* margin: 10px; */
+}
+/* For horizontal scrolling */
+.scrolly-container3 {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    padding: 20px 0;
+    align-items: center;
+}
+.scrolly-text3 {
+    width: 40%;
+    padding-right: 20px;
+    padding-left: 35px;
+    flex-shrink: 0;
+}
+/* For horizontal scrolling */
+.scrolly-container-results {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+}
+.scrolly-text-results {
+    width: 50%;
+    padding-right: 20px;
+    padding-left: 45px;
+    flex-shrink: 0;
+}
+.map-card {
+    width: 100%; /* Set the width of each chart */
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+.step {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.3;
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 40px;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+
+.step.is-active {
+    opacity: 1;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transform: scale(1.02);
+}
+
+#visualization-container {
+    width: 100%;
+    height: 600px;
+    background-color: #e9ecef;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-section {
+    background-color: #0a2342;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.chart-transition {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.chart-transition.visible {
+    opacity: 1;
+}
+h5 {
+    font-style: italic;
+    font-weight: bold;
+}
