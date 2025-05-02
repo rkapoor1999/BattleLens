@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BattleLens: Conflict and Commerce Unveiled</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="title-section">
+        <h1>BattleLens: Conflict and Commerce Unveiled</h1>
+        <p>Exploring the intricate relationship between global conflicts and economic dynamics.</p>
+    </div>
+
+    <div class="scrolly-container-introduction">
+        <div class="scrolly-text-introduction">
+            <div class="step" data-step="0">
+                <h3><i>"Can we break the cycle where profit thrives on conflict, and instead invest in a future where transparency shapes peace?"</i></h3>
+                <br><p>The Middle East exemplifies how conflict and commerce intertwine. Known for unrest and as a major arms trade hub, it reveals a complex network where weapons manufacturing thrives amid war's devastation.Understanding this is essential. The global weapons industry, driven by political alliances and economic incentives, both fuels and mitigates conflicts. How do arms sales impact producing nations' GDP? What links conflicts to defense revenues? How can we promote transparency and accountability?</p>    
+                <p>Data holds the answers. By analyzing Middle Eastern conflicts and their ties to the defense industry, we expose the economic forces behind violence. BattleLens offers an interactive journey to reveal these narratives.</p>
+                <p>We aim to empower decision-makers with insights to make informed choices in a world shaped by the business of war. Conflict isn't just destruction; it's about profit, resilience, and the struggle for stability—a story we invite you to explore. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="scrolly-container0">
+        <div class="scrolly-text0">
+            <div class="step" data-step="1">
+                <h2>In the Crossroads of Conflict: A Geographic Lens on Violence</h2>
+                <p>This interactive map transforms abstract conflict data into a powerful visual narrative of the Middle East. Each carefully scaled circle is more than a data point—it's a testament to the human stories behind the statistics. As you navigate through time and space, the visualization reveals the complex tapestry of regional tensions, showing how conflict ebbs and flows across geographical and temporal boundaries.</p>
+                <p>Zoom in to uncover granular details, slide through a timeline to trace the evolution of violence, and filter events to understand the nuanced layers of regional conflicts. This is not just a map, but a dynamic window into the human experience of conflict, inviting viewers to look beyond headlines and understand the intricate dynamics that shape lives in this volatile region.</p>
+                <p>The visualization offers more than observation—it provides a tool for understanding, connecting individual moments of violence into a broader pattern of regional complexity. Every interaction reveals another layer of the story, challenging viewers to see beyond simple narratives and recognize the profound interconnectedness of human conflict.</p>
+            </div>
+        </div>
+        
+        <div class="scrolly-graphic0">
+            <div class="map-card">
+                <div class="card-body">
+                    <h5 class="card-title">Timeline Controls</h5>
+                    <div class="timeline-container" id="timeline">
+                        <!-- Timeline controls go here -->
+                    </div>
+                </div>
+                <div id="chart-container">
+                    <svg id="main-chart">
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="scrolly-graphic0">
+            <div class="map-card">
+                <div class="card-body">
+                    <h5 class="card-title">Attack Relationships</h5>
+                    <div class="attack-chart-container" id="attackChart">
+                        <script src="js/attackChart.js"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scrolly-text0">
+            <div class="step" data-step="1">
+                <h4>Threads of Tension: Mapping Invisible Connections</h4>
+                <p>More than a mere graphic, this chord diagram unravels the intricate social fabric of conflict, revealing the hidden networks that pulse beneath surface-level violence. Each ribbon is a delicate thread connecting different actors, tracing the complex web of relationships that define regional dynamics.</p>
+                <p>As you interact with the visualization, watch how seemingly disparate groups are subtly linked through lines of influence, alliance, and opposition. The diagram transforms abstract geopolitical interactions into a living, breathing map of human connections. Click on a ribbon, and suddenly a precise geographical location springs to life, bridging abstract data with concrete spatial reality.</p>
+                <p>This is not just about who fights whom, but about understanding the sophisticated ecosystem of conflict—where every connection tells a story of power, strategy, and survival. The visualization invites viewers to see beyond simplistic narratives of enemies and allies, and instead recognize the nuanced, interconnected nature of regional tensions.</p>
+                By synchronizing with other visualizations, the chord diagram becomes a powerful lens, offering a multidimensional view of how conflict actors move, interact, and reshape the geopolitical landscape. It's an invitation to complexity, to understanding that in the world of conflict, nothing exists in isolation.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Adding Line Chart -->
+    <div class="scrolly-container-LineChart1">
+        <div class="scrolly-text-LineChart1">
+            <div class="step" data-step="2">
+                <h2>Analyzing the Middle East Unrest</h2>
+                <br>
+                <div class="result-section">
+                    <h5>1. Sharp Increase in Fatalities (2015-2016)</h5>
+                    <p>The line plot shows a significant spike in fatalities between 2015 and 2016, reflecting the escalation of violent conflicts in the Middle East, particularly during the peak of the Syrian Civil War and the rise of ISIS.</p>
+                </div>
+            
+                <div class="result-section">
+                    <h5>2. Protests Surge in 2019</h5>
+                    <p>A sharp increase in protests in 2019 coincides with the Arab Spring’s ripple effect, where public unrest and demands for political change reached a peak in several countries. This surge contrasts with the relatively stable levels of protests in earlier years.</p>
+                </div>
+            
+                <div class="result-section">
+                    <h5>3. Fluctuating Battles and Strategic Developments (2015-2024)</h5>
+                    <p>Battles and strategic developments follow an erratic pattern, with occasional spikes that align with critical political events (e.g., the rise and fall of specific political regimes or international interventions). These fluctuations emphasize the volatile nature of regional geopolitics.</p>
+                </div>
+            
+                <div class="result-section">
+                    <h5>6. Overall Trend of Prolonged Conflict</h5>
+                    <p>The line plot suggests that while specific conflicts may ebb and flow, the region experiences an ongoing state of unrest. Even as individual events subside, the broader pattern indicates a persistent cycle of violence, instability, and economic consequences, which requires continuous monitoring and intervention.</p>
+                </div>
+            </div>
+        </div>
+        <div class="scrolly-graphic-LineChart1">
+            <!-- Line Charts -->
+            <div class="col-lg-12">
+                <!-- Attack Relationships -->
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <div class="line-chart-container" id="lineChart">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="scrolly-container1">
+        <div class="scrolly-text1">
+            <div class="step" data-step="2">
+                <h2>Economic Impacts</h2>
+                <p>Arms sales are not just transactions, but strategic tools that influence national economies, diplomatic relations, and regional stability.</p>
+                <br>
+                <p>This visualization unfolds the intricate financial landscape of the global arms industry, revealing how nations and corporations transform geopolitical tensions into lucrative revenue streams. As the chart elegantly transitions from a stacked bar to a donut, it exposes the economic architecture underlying regional conflicts.
+                    Each segment represents more than just a financial statistic—it's a story of strategic investments, global power dynamics, and the monetization of political instability. Interactive tooltips invite viewers to explore granular details of arms revenue, challenging us to understand how economic interests are intimately woven into the fabric of international tensions.
+                    The visualization doesn't just display data; it decodes the complex economic ecosystems that sustain and potentially perpetuate conflict, offering a nuanced lens into how global arms trade operates beneath the surface of geopolitical narratives.</p>
+            </div>
+        </div>
+    </div>
+    <div class="scrolly-container1">
+        <div class="scrolly-graphic1">
+            <div class="step" data-step="3">
+                <div class="chart-container" id="companiesChart">
+                    <!-- Weapons companies chart will be added here -->
+                    <div class="chart-container">
+                        <svg id="chart" width="9500" height="600"></svg></svg>
+                        </div>
+                        <script src="js/companies_script.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="scrolly-container2">
+        <div class="scrolly-text2">
+            <div class="step" data-step="4">
+                <h2>Arms Trade Dominance: A Global Power Calculus </h2><br>
+                <p>This pie chart reveals the stark economic landscape of global arms trade, with a laser focus on the world's most powerful players. The visualization dissects the revenue streams of UN Security Council members, transforming complex geopolitical economics into a clear, compelling narrative of global power distribution.</p>
+                <p>As you interact with the chart, layers of economic influence emerge. Hover over each segment to uncover precise revenue details, and watch how the visualization dynamically shifts with different year selections. More than just a graphic, it's a window into how a handful of nations control the global arms market, showing how economic might and geopolitical influence are inextricably linked in the modern world of international relations.</p>
+                <p>The color-coded design does more than display data—it tells a story of strategic economic power, revealing the mechanisms by which global conflicts are not just fought, but economically sustained.</p>
+            </div>
+        </div>
+        <div class="scrolly-graphic2">
+            <div class="row mt-4">
+                <!-- UN vs Non-UN Contribution -->
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">UN vs Non-UN Contribution</h5>
+                            <div class="pie-chart-container" id="unChart">
+                                <!-- UN contribution chart will be added here -->
+                                <div class="pie-chart-container">
+                                    <svg id="pie-chart" width="450" height="500"></svg>
+                                </div>
+                                <script src="js/pie_chart.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scrolly-container3">
+        <div class="scrolly-text3">
+            <div class="step" data-step="5">
+                <h2>Economic Currents: Mapping Conflict and Prosperity</h2><br>
+                <p>This stream chart reveals the intricate dance between arms revenue and economic growth, transforming complex financial data into a fluid, living visualization. From 2015 to 2024, each current reveals how national economies ebb and flow alongside their arms trade investments.</p>
+                <p>The visualization is a dynamic landscape where economic streams converge and diverge, with stream thickness representing GDP growth and vertical positioning highlighting arms revenue. As you explore, hover over each segment to uncover the hidden connections between military commerce and economic performance. More than a chart, it's an invitation to understand how nations navigate the complex intersections of conflict, commerce, and economic strategy.</p>
+                <p>By interweaving weapon revenue and GDP datasets, the chart challenges viewers to see beyond traditional economic narratives, exposing the nuanced relationships that shape global economic ecosystems.</p>  
+            </div>
+        </div>
+        <div class="scrolly-graphic3">
+            <div class="row mt-4">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">GDP Comparison</h5>
+                            <div class="map-chart-container" id="gdpChart">
+                                <!-- GDP comparison chart will be added here -->
+                                <script src="js/gdp_chart.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scrolly-container-results">
+        <div class="scrolly-text-results">
+            <div class="step" data-step="6">
+                <h2>Results and Analysis</h2><br>
+                <ul>
+                    <li><i><b>Arms Trade Dominance by Security Council Members:</b></i></li>
+                    <p>Permanent members of the UN Security Council (US, UK, France, Russia, China) dominate the global arms trade. Data from weapon manufacturers highlights that these nations contribute more than 70% share of global arms sales, often supplying weapons to conflict zones, including the Middle East.</p>
+                    <br>
+                    <li><i><b>Revenue from Conflict-Driven Markets:</b></i></li>
+                    <p>Countries like the US, Russia, and France generate substantial revenue from arms exports to Middle Eastern countries. This economic incentive aligns with data showing increased arms sales during periods of intensified conflict in the region, suggesting these nations have a financial stake in sustaining such unrest.</p>
+                    <br>
+                    <li><i><b>Political Influence and Military Alliances:</b></i></li>
+                    <p>Many Middle Eastern conflicts involve alliances or support from Security Council members, either through direct military involvement (e.g., US in Iraq) or arms supplies to proxies (e.g., Russian weapons to Syria). The strategic geopolitical positioning of the Middle East, coupled with economic gains, highlights a pattern where these nations perpetuate instability rather than resolve it.</p>
+                </ul>
+                <br><br>
+                <h2>Conclusion</h2>
+                <p>As we conclude this exploration, we're reminded that behind every data point lies a human story, and within every economic trend lies the potential for both conflict and cooperation. BattleLens serves not just as a tool for analysis, but as a lens through which we can better understand the complex dynamics that influence global stability and human security.</p>    
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="scrolly-container-results">
+        <div class="scrolly-text-results">
+            <div class="step" data-step="6">
+                <h2>Thank You!</h2>
+                <p>Raghav Kapoor, Ravi Raghav Dasari, Chirag Dhawan, Prithvi Shirke</p>
+            </div>
+        </div>
+    </div> -->
+
+    <script type="module">
+        // Scrollama Initialization
+        const scroller = scrollama();
+
+        scroller
+            .setup({
+                step: '.step',
+                offset: 0.5,  // Set this as necessary to trigger events when scrolling reaches a certain point
+                debug: false
+            })
+            .onStepEnter(response => {
+                // Remove active class from all steps
+                d3.selectAll('.step').classed('is-active', false);
+
+                // Add active class to current step
+                d3.select(response.element).classed('is-active', true);
+
+                // Update visualization based on the step
+                updateVisualization(response.index);
+            })
+            .onStepExit(response => {
+                d3.select(response.element).classed('is-active', false);
+            });
+
+        // Resize event
+        window.addEventListener('resize', scroller.resize);
+
+        // Detect the wheel scroll event and scroll horizontally
+        const scrollyContainer = document.querySelector('.scrolly-container0');
+        const verticalScrollThreshold = scrollyContainer.scrollWidth - scrollyContainer.clientWidth-5;
+        const verticalSection = document.querySelector('.scrolly-container-LineChart1');
+        const introSection = document.querySelector('.scrolly-container-introduction');
+
+        
+
+        // Detect the wheel scroll event for horizontal scroll
+        scrollyContainer.addEventListener('wheel', function (event) {
+            const scrollSpeedFactor = 5;
+            const maxScrollLeft = scrollyContainer.scrollWidth - scrollyContainer.clientWidth-10;
+            console.log("scroll", scrollyContainer.scrollLeft, "max scroll", maxScrollLeft, "delta", event.deltaY)
+
+            // Prevent default behavior for smoother control
+            event.preventDefault();
+
+            if(scrollyContainer.scrollLeft+event.deltaY<0){
+                scrollyContainer.style.overflowX = 'hidden';
+                scrollyContainer.style.overflowY = 'auto';
+
+                // Ensure the vertical section is visible
+                introSection.scrollIntoView({ behavior: 'smooth' });
+            }
+            
+            // Handle horizontal scrolling
+            if (scrollyContainer.scrollLeft+event.deltaY < maxScrollLeft) {
+                console.log("is this called 1")
+                scrollyContainer.style.overflowX = 'auto';
+                scrollyContainer.scrollLeft += event.deltaY * scrollSpeedFactor;
+            } 
+            else if (scrollyContainer.scrollLeft >= maxScrollLeft && event.deltaY>0){
+                // Switch to vertical scrolling
+                console.log("is this called 2")
+                scrollyContainer.style.overflowX = 'hidden';
+                scrollyContainer.style.overflowY = 'auto';
+
+                // Ensure the vertical section is visible
+                verticalSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+        window.addEventListener('scroll', function () {
+            if (window.scrollY === 0) {
+                console.log("what does this mean", window.scrollY)
+                scrollyContainer.style.overflowX = 'auto';
+                scrollyContainer.style.overflowY = 'hidden';
+            }
+        });
+
+
+        // Function to update visualization based on the current step
+        function updateVisualization(stepIndex) {
+            const visualizationContainer = d3.select('#visualization-container');
+            const placeholder = d3.select('#chart-placeholder');
+
+            // Clear previous content
+            visualizationContainer.selectAll('*').remove();
+
+            switch (stepIndex) {
+                case 0: 
+                    placeholder.text('INTRODUCTION SECTION');
+                    break;
+                case 1:
+                    placeholder.text('Global Arms Trade Overview');
+                    break;
+                case 2:
+                    placeholder.text('Economic Impact Visualization');
+                    break;
+                case 3:
+                    placeholder.text('Conflict Dynamics Map');
+                    break;
+                case 4:
+                    placeholder.text('Weapon Revenue Tracking');
+                    break;
+                case 5:
+                    placeholder.text('UN vs Non-UN Arms Trade');
+                    break;
+                default:
+                    placeholder.text('Select a visualization type');
+            }
+        }
+    </script>
+    <script type="module" src="js/pshirke1_map_story.js"></script>
+</body>
+</html>
