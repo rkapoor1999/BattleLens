@@ -83,9 +83,8 @@ BattleLens is an interactive web application that explores the intricate relatio
 
 ## Contributors
 
-- **Prithvi Shirke**
 - **Raghav Kapoor**
+- **Prithvi Shirke**
 - **Ravi Raghav Dasari**
-
 - **Chirag Dhawan**
 ---
