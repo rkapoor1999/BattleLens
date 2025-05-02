@@ -2,7 +2,7 @@
 
 BattleLens is an interactive web application that explores the intricate relationship between global conflicts and economic dynamics, focusing on the Middle East. It employs data visualizations to uncover connections between arms revenue, GDP, and regional conflicts.
 
-[Live Demo](https://rkapoor1999.github.io/BattleLens/)
+[Live Demo](https://rkapoor1999.github.io/BattleLens/)  
 [Project Demo Video](https://youtu.be/A68qlL6CQJk?si=lF1iccdXBKdtaVrZ)
 
 ## Table of Contents
